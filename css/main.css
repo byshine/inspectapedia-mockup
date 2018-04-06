@@ -549,6 +549,7 @@ textarea {
         background-color: #6a70c2;
         margin: 0 !important;
         padding: 0.5em !important;
+        -webkit-transform: translateZ(0);
     }
 
     .mobile-side-nav a 
