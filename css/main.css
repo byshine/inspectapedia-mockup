@@ -540,9 +540,11 @@ textarea {
     .mobile-side-nav {
         display: block !important;
         position: fixed;
-        top: 38;
+        top: 37.8px;
+        margin-top: 0 !important;
         left: 0;
         right: 0;
+       
         height: 100%;
         z-index: 2;
         background-color: #6a70c2;
