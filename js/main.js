@@ -7,6 +7,8 @@ $( document ).ready( function (e) {
                 $("#sideBar-list").removeClass("mobile-side-nav");
             } else {
                 $("#sideBar-list").addClass("mobile-side-nav");
+                $("main").prepend($("#sideBar-list"));
+                
             }
 
         });
