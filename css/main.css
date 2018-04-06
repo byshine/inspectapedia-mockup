@@ -473,7 +473,6 @@ textarea {
 @media only screen and (max-width: 700px) {
     #sideBar-list {
         display: none;
-        visibility: hidden;
     }
 
     #sideBar hgroup {
@@ -536,6 +535,24 @@ textarea {
 
     html {
         font-size: 14px;
+    }
+
+    .mobile-side-nav {
+        display: block !important;
+        position: fixed;
+        top: 38;
+        left: 0;
+        right: 0;
+        min-height: 100%;
+        z-index: 3;
+        background-color: #6a70c2;
+        padding: 0.5em !important;
+    }
+
+    .mobile-side-nav a 
+    {
+        color: white !important;
+        
     }
 }
 
