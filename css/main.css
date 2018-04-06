@@ -542,6 +542,7 @@ textarea {
         position: fixed;
         z-index: 2;
         top: 13px; 
+        width: 100%;
         background-color: #6a70c2;
         padding: 0.5em !important;
     }
